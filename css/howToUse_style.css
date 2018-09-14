@@ -1,0 +1,29 @@
+
+#howToUse img{
+	height: 280px;
+	width: 400px
+}
+
+#howToUse p{
+	width: 60%;
+	color: darkslategray
+	
+}
+
+#howToUse{
+	margin-left: 185px
+}
+
+
+.bg-ours{
+	background-color: #5987f5;
+}
+
+#howToUse h1,h3{
+	color: #0096d7;
+}
+
+
+#howToUse p{
+	color: gray;
+}

@@ -1,0 +1,50 @@
+#profile
+{
+    margin-top: 50px;
+}
+.data
+{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+ .pro
+{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    
+    
+}
+.item
+{
+    width: 350px;
+    height: 250px;
+    
+}
+.site
+{
+    padding-top: 50px;
+    
+}
+
+.site h2 {
+    color: black;
+}
+.pics
+{
+    padding-top: 15px;
+}
+.edit
+{
+    
+    color: black;
+}
+ a:hover
+{
+    text-decoration: none;
+    
+}
+
+.view {
+    margin-left:120px;
+}
