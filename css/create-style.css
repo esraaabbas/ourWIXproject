@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|VT323|Quicksand|Inconsolata');
+
+/*-----------------------------------navbar-------------------------------*/
+
+
+.logobrand{
+    height: 44px !important
+}
+ .bg-light {
+    background-color: #0096d7 !important;
+}
+ .navbar-brand {
+    color: white !important;
+    font-size: 30px;
+}
+h6 {
+    color: white;
+    text-decoration: none;
+
+}
+
+
+/*-----------------------------------------endofnavbar----------*/
+
+
+/*------------------------------------------footer-----------*/
+.rights {
+
+    background: #0077ab;
+    color: #fff;
+   
+}
+/*---------------------------------------endoffooter-----------*/
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+    
+}
+
+
+
+.cl{
+	background-color: #00c4cc!important;
+}
+#sec1{
+	height: 750px;
+	background-color: #ebeced;
+}
+
+
+#panel{
+	background-color: #3f4652;
+	position: fixed;
+	width: 30%;
+	left: 0;
+	height: 660px;
+	color: #fff;
+
+}
+.editbar{
+	 background: #272c33 ;
+	 text-align: center;
+	 height: 660px;
+
+
+}
+
+.fas, p {
+	background: #272c33 ;
+	color: #ebeced;
+    cursor: pointer;
+}
+.fas:hover { 
+	color: #00c4cc
+}
+
+
+
+
+.addBtnText{
+	margin-left: 70px;
+
+	width: 120px;
+}
+#textheading
+{
+	position: absolute;
+	
+	margin-left: 70px;
+	margin-top: 220px;
+	z-index: 3454467;
+	background-color: #3f4652;
+	display: none;
+
+    
+
+
+}
+
+
+.candiv{
+	margin-top: 100px;
+	margin-left: 500px;
+	width: 780px;
+	height: 600px; 
+    background-color: #fff;
+    position: absolute;
+
+}
+/*-------------*/
+
+
+
+#canvascolor p{
+	position: absolute;
+	margin-top: 180px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-left: 70px;
+	background-color: #3f4652;
+	font-weight: bold;
+	font-size: 27px;
+	z-index: 45678;
+
+}
+
+
+#bgred{
+	position: absolute;
+	margin-left: 70px;
+	margin-top: 220px;
+	background-color: #dc3545;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	
+
+}
+#bgyellow{
+	position: absolute;
+	margin-left: 130px;
+	margin-top: 220px;
+	background-color: #ffc107;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	
+
+}
+#bggreen{
+	position: absolute;
+	margin-left: 190px;
+	margin-top: 220px;
+	background-color: #20c997;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	
+
+}
+#bgblue{
+	position: absolute;
+	margin-left: 250px;
+	margin-top: 220px;
+	background-color: #007bff;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	
+
+}
+#bgwhite{
+	position: absolute;
+	margin-left: 310px;
+	margin-top: 220px;
+	background-color: #fff;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	
+
+}
+#changingfont{
+	position: absolute;
+	margin-top: 220px;
+	margin-left: 140px;
+	color: #fff;
+	display: none;
+
+
+}
+
+
+#addShape{
+	position: absolute;
+	margin-top: 220px;
+    margin-left: 140px;
+
+
+    margin-top: 180px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-left: 120px;
+	background-color: #3f4652;
+	font-weight: bold;
+	font-size: 27px;
+	display: none;
+
+
+
+}
+
+#addShape p{
+
+	color: #fff;
+	text-transform: uppercase;
+	background-color: #3f4652;
+	font-weight: bold;
+	font-size: 27px;
+
+
+
+
+}
