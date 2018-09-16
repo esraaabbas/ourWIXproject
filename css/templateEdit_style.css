@@ -17,9 +17,10 @@
 	 background: #272c33 ;
 	 text-align: center;
 	 height: 660px;
+    position: relative;
     position: fixed;
     left: 0;
-/*    z-index: 34556;*/
+    z-index: 345;
 
 
 }
@@ -31,6 +32,37 @@
 }
 #editor .editbar .fas:hover { 
 	color: #00c4cc
+}
+#editor .editbar .Selections
+{
+    position: absolute;
+    left: 100%;
+    top: 78px;
+    background-color: #3f4652;
+    height: 400px;
+    width: 300px; 
+}
+#editor .editbar .Selections #colors
+{
+    margin:50% auto;
+}
+#editor .editbar .Selections #colors h3
+{
+    color: #fff;
+    font-size: 20px;
+}
+#editor .editbar .Selections #colors div
+{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-left: 5px;
+}
+#editor .editbar .Selections #changingfont
+{
+    padding: 100px;
+    color: #fff;
+    display: none;
 }
 #editor .thewebsite
 {
