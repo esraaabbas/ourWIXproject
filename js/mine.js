@@ -1,3 +1,5 @@
+////////////////////////////////////////////////////// templates.html (js)////////////////////////////////////////////////////////
+
 $(document).ready(function(){
     
     $(".sidenav #port a").css("color","black");
@@ -50,3 +52,16 @@ $(".viewtemplate").click(function(){
     $(".choosesite").css("display","none");
     $("#templateview").css("display","block");
 })
+////////////////////////////////////////////////////////// template_editor.html /////////////////////////////////////////////////////
+
+$(".li").click(function(){
+    
+    var elID=$(this).attr('id');
+    console.log(elID);
+})
+
+
+
+
+//new WOW().init();
+

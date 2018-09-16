@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>JQASS</title>
+	<title>web portrait</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/logoicon.ico" />
 	<link rel="stylesheet" href="css/bootstrap.min.css">
   	<link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" type="text/css" href="css/home_style.css">
 	
 </head>
@@ -13,7 +15,7 @@
       <div id="navbar">
 
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="home.html">LOGO</a>
+                <a class="navbar-brand" href="home.html"><img class="logobrand" src="images/logowhite.png" alt="web portrait"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -21,7 +23,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="profile.html">
                                 <h6 class="my-auto">My Profile</h6>
                             </a>
                         </li>
@@ -44,7 +46,7 @@
 	
 	<section id="firstpanel">
 	<div class="firstpaneloverlay">
-	<h1>The websites builder</h1>
+	<h1>The free websites builder</h1>
 		
 		
 	<h5>Create your own website without coding</h5>
@@ -62,25 +64,25 @@
             <h1 class="text-center mt-5">Let's Get Start</h1>
             <div class="row mt-5">
 
-                <div class="col-lg-6">
+                <div class="col-lg-6 wow fadeInLeft data-wow-duration="3s" ">
 
                     <div class="images">
                         <img class="card-img-top" src="images/1.jpg" alt="Card image cap">
                     </div>
                     <div class="middle">
-                        <button href="#" class="btn btn-primary" id="btn">Create Your Site</button>
+                        <a href="createpage.html"><button  class="btn btn-primary" id="btn">Create Your Site</button></a>
                     </div>
                 </div>
 
 
 
-                <div class="col-lg-6">
+                <div class="col-lg-6 wow fadeInRight data-wow-duration="3s" ">
 
                     <div class="images">
                         <img class="card-img-top" src="images/3.jpg" alt="Card image cap">
                     </div>
                     <div class="middle small-btn">
-                        <button href="#" class="btn btn-primary" id="btn">Templets</button>
+                        <a href="templates.html"><button  class="btn btn-primary" id="btn">Templates</button></a>
 
                     </div>
 
@@ -92,7 +94,7 @@
 
 
 
-    <footer class="contact-us mt-5">
+    <footer class="contact-us mt-5 wow slideInLeft">
 
         <div class="container">
             <h2 class="mb-3">Contact Us</h2>
@@ -174,6 +176,7 @@
     <script src="js/popper.min.js"></script>
     <script src="js/all.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/mine.js"></script>
     
 </body>

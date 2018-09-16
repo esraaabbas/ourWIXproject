@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<script type="text/javascript" src="js/fabric.min.js"></script>
+	<script type="text/javascript" src="js/fontfaceobserver.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/create-style.css">
+
+</head>
+<body> 
+	    <div id="navbar">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <a class="navbar-brand" href="home.html"><img class="logobrand" src="images/logowhite.png" alt="web portrait"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="profile.html">
+                                <h6 class="my-auto">My Profile</h6>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="howToUse.html">
+                                <h6 class="my-auto">How to Use</h6>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <a class="out" href="#">
+                        <h6 class="my-auto">Sign Out</h6>
+                    </a>
+                </div>
+            </nav>
+
+        </div>
+	<section id="sec1">
+		<div class="col-lg-4 ">
+			<div id="panel" >
+				<div class="editbar col-lg-2 pt-5 mt-5 col-md-1 col-sm-1">
+
+						<i class="fas fa-font fa-2x" id="font" onclick="fontChange()"></i>
+	                    <p>Font</p>
+	                    
+						<i class="fas fa-text-width fa-2x" id="text" onclick="text()"></i>
+						<p>Text</p>
+					    
+						<i class="fas fa-palette fa-2x" onclick="color()"></i>
+						<p>Color</p>
+						<i class="fas fa-upload fa-2x"></i>
+						<p>Upload</p>
+						<i class="fas fa-shapes fa-2x" onclick="addShape()"></i>
+						<p>shapes</p>
+						<i class="fas fa-trash-alt fa-2x" onclick="deleteObjects()"></i>
+						<p>Delete</p>
+						
+				</div>
+			</div>
+			
+			
+			<div id="textheading">
+
+				
+				<button class="btn btn-danger addBtnText" onclick="addText()">AndText</button>
+				<br>
+				<button class="btn btn-danger m-2 ml-5 mr-1" onclick="Copy()">Copy</button>
+                <button class="btn btn-danger m-2 ml-4" onclick="Paste()">Paste</button>
+
+
+				
+				
+			</div>
+
+			<div id="canvascolor" class="pt-5">
+					<p>background color</p>
+					<div id="bgred" onclick="redcolor()"></div>
+					<div id="bgyellow" onclick="yellowcolor()"></div>
+					<div id="bggreen" onclick="greencolor()"></div>
+					<div id="bgblue" onclick="bluecolor()"></div>
+					<div id="bgwhite" onclick="whitecolor()"></div>
+					</div>
+		
+			</div>
+			<div id="changingfont">
+				Font-family: <select id="font-family" class="form-control"></select>
+				
+			</div>
+
+			<div id="addShape">
+				<p onclick="addrect()">Add rectangle</p>
+				<p onclick="addCircle()">Add Circle</p>	
+			</div>
+
+
+		<!-------canvas------->
+		<div class="candiv">
+
+        <canvas id="c"width="780px" height="600px">
+        	
+        </canvas>
+        </div>
+        <!-------endofcanvas------->
+
+
+	</section>
+	<div class="rights fixed-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-right">
+                    <small>
+                        Copyright 2018.All Rights Reserved.
+
+                    </small>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+
+
+	
+
+    
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/createpage.js"></script>
+
+
+</body>
+</html>

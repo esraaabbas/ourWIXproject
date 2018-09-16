@@ -1,0 +1,39 @@
+#editor{
+	height: 750px;
+	background-color: #ebeced;
+}
+
+
+#editor #panel{
+	background-color: #3f4652;
+	position: fixed;
+	width: 30%;
+	left: 0;
+	height: 660px;
+	color: #fff;
+
+}
+#editor .editbar{
+	 background: #272c33 ;
+	 text-align: center;
+	 height: 660px;
+    position: fixed;
+    left: 0;
+/*    z-index: 34556;*/
+
+
+}
+
+#editor .editbar .fas,.editbar p {
+	background: #272c33 ;
+	color: #ebeced;
+    cursor: pointer;
+}
+#editor .editbar .fas:hover { 
+	color: #00c4cc
+}
+#editor .thewebsite
+{
+    margin-left: 105px;
+    width: 100%;
+}
