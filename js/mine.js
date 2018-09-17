@@ -78,26 +78,64 @@ $(".li").click(function(){
    elIDarr[0]=$(this).attr('id');
     
 })
-
-   $("#colors div").click(function(){
-        
-    var liColor =$(this).css("background-color"); 
-    $("#"+elIDarr[0]).css("color",liColor);
-    
-    
-})
 $("#choosecolor").click(function(){
 
+    $(".Selections").css("display","block");
+    $(".Selections > div").not(".Selections #colors").css("display","none");
+    $("#colors").css("display","block");
     
     $("#colors div").click(function(){
     
     
     var liColor =$(this).css("background-color");
     
-    $(elID).css("color",liColor);
+    $("#"+elIDarr[0]).css("color",liColor);
     
     
 })
+    
+})
+$("#fonts").click(function(){
+    $(".Selections").css("display","block");
+    $(".Selections > div").not(".Selections #changingfont").css("display","none");
+    $("#changingfont").css("display","block");
+    // Define an array with all fonts
+var fonts = ["Pacifico", "VT323", "Quicksand", "Inconsolata"];
+
+
+fonts.unshift('Times New Roman');
+// Populate the fontFamily select
+var select = document.getElementById("font-family");
+fonts.forEach(function(font) {
+  var option = document.createElement('option');
+  option.innerHTML = font;
+  option.value = font;
+  select.appendChild(option);
+});
+
+// Apply selected font on change
+//document.getElementById('font-family').onchange = function() {
+//  if (this.value !== 'Times New Roman') {
+//    loadAndUse(this.value);
+//  } else {
+//    canvas.getActiveObject().set("fontFamily", this.value);
+//    canvas.requestRenderAll();
+//  }
+//};
+
+//function loadAndUse(font) {
+//  var myfont = new FontFaceObserver(font)
+//  myfont.load()
+//    .then(function() {
+//      // when font is loaded, use it.
+//      canvas.getActiveObject().set("fontFamily", font);
+//      canvas.requestRenderAll();
+//    }).catch(function(e) {
+//      console.log(e)
+//      alert('font loading failed ' + font);
+//    });
+//}
+
     
 })
 
